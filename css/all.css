@@ -489,7 +489,7 @@ a {
 }
 
 .hero {
-  background: url("../assets/images/Banner-lg.png");
+  background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner.png?raw=true");
   padding: 288px 0px;
   background-repeat: no-repeat;
   background-position: center;
@@ -504,7 +504,7 @@ a {
   .hero {
     padding: 155px 24px;
     margin: 0;
-    background: url("../assets/images/Banner-sm.png");
+    background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-sm.png?raw=true");
   }
   .heroText {
     margin-left: 0px;
