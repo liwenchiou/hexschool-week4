@@ -1,5 +1,26 @@
-@import './layout/header.scss';
-@import './layout/footer.scss';
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap");
+@import './layout/reset.scss';
+@import './layout/variable.scss';
+@import './layout/utilities.scss';
 
+/*預設字體*/
+body {
+  font-family: "Noto Sans TC", sans-serif;
+}
 
-@import './pages/index.scss';
+a {
+  text-decoration: none;
+  display: block;
+}
+
+.container{
+    max-width: 1320px;
+    // margin: 0 auto;
+    // padding: 0px 12px;
+    // background-color: green;
+    // outline:1px solid red;
+}
+
+@import './pages/header';
+@import './pages/footer';
+@import './pages/index';

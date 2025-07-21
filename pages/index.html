@@ -1,19 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>index</title>
-  </head>
-  <body>
-    <%- include('./layout/header'); -%>
 
-    <h1 class="index-title">我是首頁</h1>
-    <img src="../assets/images/dog.jpg" style="width: 300px;" alt="cat">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="../css/all.css">
+  <title>index</title>
+</head>
 
+<body>
+  <%- include('./layout/header'); -%>
+    <nav class="mainNav dn sm-di ">
+      <ul class="d-flex">
+        <li class=" w-50 px-l py-s text-align-center bg-primary-200"><a href="#"
+            class="mainNavAction text-primay label-md">商品列表</a></li>
+        <li class=" w-50 px-l py-s text-align-center bg-primary-100"><a href="#" class="text-primay label-md">品牌故事</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <div class="heroText">
+        <h1 class="dispaly1 text-on-dark mb-m">URBNSTEP</h1>
+        <h2 class="h3 text-on-dark mb-3xl">Your Step, Your Statement</h2>
+        <a href="#" class="py-s px-l radius-xs text-primay bg-primary-300 d-ib label-md">立即選購</a>
+      </div>
+    </section>
+
+    <section class="newArrival container py-5xl outline m0-auto px-s">
+      <h2 class="dispaly2 text-align-center mb-s sm-H2 sm-mbxs">New Arrival</h2>
+      <h3 class="H2 text-align-center mb-xl sm-H4 sm-mbl">新品上市</h3>
+      <ul class="d-flex">
+        <li class="arrivalList mr-l">
+          <div class="arrivalImg mb-s sm-mbxs">
+            <img src="../assets/images/Product-Card拷貝.png" alt="arrivalImg1">
+          </div>
+          <h4 class="arrivalTitle mb-xxs H5 sm-H6">Monoverse</h4>
+          <p class="arrivalPrice mb-2xl label-md">NT$3,600</p>
+        </li>
+        <li class="arrivalList">
+          <div class="arrivalImg mb-s sm-mbxs">
+            <img src="../assets/images/Product-Card-1拷貝.png" alt="arrivalImg2">
+          </div>
+          <h4 class="arrivalTitle mb-xxs H5 sm-H6">PLATFORM 404</h4>
+          <p class="arrivalPrice mb-2xl label-md">NT$2,600</p>
+        </li>
+      </ul>
+      <ul class="d-flex">
+        <li class="arrivalList mr-l ">
+          <div class="arrivalImg mb-s sm-mbxs">
+            <img src="../assets/images/Product-Card-2拷貝.png" alt="arrivalImg3">
+          </div>
+          <h4 class="arrivalTitle mb-xxs H5 sm-H6">URBN Force</h4>
+          <p class="arrivalPrice label-md">NT$3,200</p>
+        </li>
+        <li class="arrivalList">
+          <div class="arrivalImg mb-s sm-mbxs">
+            <img src="../assets/images/Product-Card-3拷貝.png" alt="arrivalImg4">
+          </div>
+          <h4 class="arrivalTitle mb-xxs H5 sm-H6">Mode90</h4>
+          <p class="arrivalPrice label-md">NT$4,000</p>
+        </li>
+      </ul>
+    </section>
     <%- include('./layout/footer'); -%>
+      <script type="module" src="../main.js"></script>
+</body>
 
-    <script type="module" src="../main.js"></script>
-  </body>
 </html>

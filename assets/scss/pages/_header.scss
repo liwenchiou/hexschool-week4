@@ -1,0 +1,32 @@
+
+.menuLOGO {
+  font-size: 20px;
+  font-weight: 700;
+  color: #212529;
+  padding: 8px 12px;
+  margin-right: 48px;
+  position: relative;
+  z-index: 1;
+//   outline:1px solid red;
+}
+.menuLOGO::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #c0fa73; /* 圓點顏色 */
+  border-radius: 50%; /* 讓它變成圓形 */
+  margin-right: 8px; /* 與文字的間距 */
+  vertical-align: middle; /* 垂直對齊文字 */
+  position: absolute;
+  top: 9px;
+  left: 86%;
+  z-index: -1;
+}
+.menuP{
+    padding: $spacing-s 0px;
+}
+.navBtn {
+  font-size: 24px;
+  padding: $spacing-s;
+}
