@@ -1,12 +1,157 @@
 .hero {
   background: url("../images/Banner-lg.png");
-  padding: 288px 0px;
+    padding: 288px 0px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .heroText {
-  margin-left: 200px;
+  margin-left: 10%;
+//   margin-bottom: 288px;
+}
+.hotItemTip {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  background-color: #f5fee7;
+  color: #5ca010;
+  padding: 8px 12px;
+  display: inline-block;
+  position: absolute;
+}
+.banner {
+  overflow: hidden;
+}
+.bannerImg {
+  background: url("../images/image\ 30.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bannerText {
+  //   position: relative;
+  //   text-align: center;
+  //   padding-top: 100px;
+  //   margin-bottom: 84px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.bannerTextTitle span {
+  color: $primary-300;
+}
+
+.bannerText p {
+  color: $neutral-500;
+}
+
+.bannerStar {
+    // max-width: 100%;
+  top: 15%;
+  left: 30%;
+}
+.bannerSparkle {
+    // max-width: 100%;
+  bottom: 5%;
+  right: 31%;
+}
+// .bannerDot {
+//   display: flex;
+//   text-align: center;
+//   justify-content: center;
+//   gap: 8px;
+// }
+.dotActive {
+  width: 24px;
+  height: 8px;
+  background-color: $neutral-600;
+}
+.dot {
+  width: 8px;
+  height: 8px;
+  //   border-radius: 8px;
+  background-color: $neutral-400;
+  //   margin-bottom: 8px;
+}
+
+.shopSeriesList {
+  gap: 1%;
+}
+.shopSeriesItemDiv {
+  //   text-align: center;
+  //   position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+}
+
+.shopSeriesItemTitle {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+.shopSeriesItemText {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+// .inspiration {
+//   padding: 64px 0px;
+// }
+// .inspiration img {
+//   display: block;
+// }
+// .inspiration h2 {
+//   font-weight: 700;
+//   font-size: 32px;
+//   line-height: 1.2;
+//   letter-spacing: 0.05em;
+//   margin-bottom: 16px;
+// }
+.inspirationSection {
+  display: flex;
+  gap: 8px;
+}
+.inspirationSection1,
+.inspirationSection2,
+.inspirationSection3 {
+  width: 32%;
+}
+.inspirationSection1-1 {
+  display: flex;
+  gap: 1.8%;
+  margin-bottom: 1.8%;
+}
+
+.inspirationSection2 {
+  display: flex;
+  gap: 1.8%;
+  flex-wrap: wrap;
+}
+.inspirationSection1-1 img,
+.inspirationSection2 img {
+  width: 49%;
+}
+.inspirationSection3-1 {
+  margin-bottom: 1.8%;
+}
+.inspirationSection3-2 {
+  display: flex;
+  width: 49%;
+  gap: 1.8%;
+}
+.tipsBtn {
+  background-color: $neutral-900;
 }
 
 @media (max-width: 576px) {
@@ -14,9 +159,9 @@
     padding: 155px 24px;
     margin: 0;
     background: url("../images/Banner-sm.png");
-      background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
   .heroText {
     margin-left: 0px;
@@ -24,29 +169,53 @@
   .dispaly1 {
     font-size: 48px;
   }
-  .h3{
+  .h3 {
     font-size: 20px;
   }
-  .mb-3xl{
+  .mb-3xl {
     margin-bottom: $spacing-xl;
   }
-  .py-5xl{
+  .py-5xl {
     padding-top: 40px;
     padding-bottom: 40px;
   }
-  .sm-H2{
+  .sm-H2 {
     font-size: 32px;
   }
-    .sm-H4{
+  .sm-H4 {
     font-size: 24px;
   }
-  .sm-mbxs{
+  .sm-mbxs {
     margin-bottom: 8px;
   }
-  .sm-mbl{
+  .sm-mbl {
     margin-bottom: 24px;
   }
-  .sm-H6{
+  .sm-H6 {
     font-size: 16px;
+  }
+  .bannerText {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  .bannerStar {
+    top: 5%;
+    left: -8%;
+  }
+  .bannerSparkle {
+    bottom: 10%;
+    right: -11%;
+  }
+  .sm-dn {
+    display: none;
+  }
+  .inspirationSection1 {
+    width: 100%;
+  }
+  .inspirationSection1-1 .inspirationSection1-1-1 {
+    width: 100%;
+  }
+  .inspirationSection1-1 .inspirationSection1-1-2 {
+    display: none;
   }
 }

@@ -1,27 +1,32 @@
-.text-primay {
-  color: $neutral-900;
-}
-.text-secondary {
-  color: $neutral-600;
-}
-.text-muted {
-  color: $neutral-500;
-}
-.text-highlight {
-  color: $primary-400;
-}
-.text-on-dark {
-  color: $neutral;
-}
-.bg-primary-300{
-    background-color:$primary-300;
-}
-.bg-primary-200{
-    background-color:$primary-200;
+.text {
+  &-primay {
+    color: $neutral-900;
+  }
+  &-secondary {
+    color: $neutral-600;
+  }
+  &-muted {
+    color: $neutral-500;
+  }
+  &-highlight {
+    color: $primary-400;
+  }
+  &-on-dark {
+    color: $neutral;
+  }
 }
 
-.bg-primary-100{
-    background-color:$primary-100;
+.bg {
+  &-primary-300 {
+    background-color: $primary-300;
+  }
+  &-primary-200 {
+    background-color: $primary-200;
+  }
+
+  &-primary-100 {
+    background-color: $primary-100;
+  }
 }
 
 .dispaly1 {
@@ -73,7 +78,6 @@
   line-height: 1.2;
   letter-spacing: 0.05em;
 }
-
 .label-lg {
   font-weight: 500;
   font-size: 20px;
@@ -127,6 +131,110 @@
   letter-spacing: 0.05em;
 }
 
+.sm {
+  &-dispaly1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+  &-dispaly2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+
+  &-H1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+  &-H2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+  &-H3 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+  &-H4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+  &-H5 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+  &-H6 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+  &-label-lg {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+  }
+
+  &-label-md {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+  }
+
+  &-label-sm {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+  }
+
+  &-label-xs {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+  }
+
+  &-paragraph-lg {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+  }
+  &-paragraph-md {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+  }
+  &-paragraph-sm {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+  }
+  &-paragraph-xs {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+  }
+}
+
 .radius-sm {
   border-radius: $spacing-xxs;
 }
@@ -143,7 +251,23 @@
 .d-flex {
   display: flex;
 }
+.d-flex-wrap {
+  flex-wrap: wrap;
+}
+.d-flex-column {
+  flex-direction: column;
+}
+.pos-relative {
+  position: relative;
+}
+.pos-absolute {
+  position: absolute;
+}
 
+
+.justify-center {
+  justify-content: center;
+}
 .justify-space-between {
   justify-content: space-between;
 }
@@ -155,6 +279,9 @@
 }
 .align-end {
   align-items: flex-end;
+}
+.mr-xs {
+  margin-right: $spacing-xs;
 }
 .mr-l {
   margin-right: $spacing-l;
@@ -169,13 +296,25 @@
   padding-top: $spacing-s;
   padding-bottom: $spacing-s;
 }
+.px-s {
+  padding-left: $spacing-s;
+  padding-right: $spacing-s;
+}
 .px-l {
   padding-left: $spacing-l;
   padding-right: $spacing-l;
 }
+.py-l {
+  padding-top: $spacing-l;
+  padding-bottom: $spacing-l;
+}
 .py-m {
   padding-top: $spacing-m;
   padding-bottom: $spacing-m;
+}
+.py-2xl {
+  padding-top: $spacing-2xl;
+  padding-bottom: $spacing-2xl;
 }
 .py-5xl {
   padding-top: $spacing-5xl;
@@ -186,6 +325,9 @@
 }
 .mb-xxs {
   margin-bottom: $spacing-xxs;
+}
+.mb-xs {
+  margin-bottom: $spacing-xs;
 }
 .mb-s {
   margin-bottom: $spacing-s;
@@ -205,8 +347,18 @@
 .mb-3xl {
   margin-bottom: $spacing-3xl;
 }
+.mb-5xl {
+  margin-bottom: $spacing-5xl;
+}
 .pt-xl {
   padding-top: $spacing-xl;
+}
+.pt-3xl {
+  padding-top: $spacing-3xl;
+}
+.px-3xl {
+  padding-top: $spacing-3xl;
+  padding-bottom: $spacing-3xl;
 }
 .db {
   display: block;
@@ -214,21 +366,21 @@
 .dn {
   display: none;
 }
-.w-50{
-    width: 50%;
+.w-50 {
+  width: 50%;
 }
-.w-100{
-    width: 100%;
+.w-100 {
+  width: 100%;
 }
-.d-ib{
-    display: inline-block;
+.d-ib {
+  display: inline-block;
 }
-.m0-auto{
-    margin: 0 auto;
+.m0-auto {
+  margin: 0 auto;
 }
-.px-s{
-    padding-left: $spacing-s;
-    padding-right: $spacing-s;
+.px-s {
+  padding-left: $spacing-s;
+  padding-right: $spacing-s;
 }
 
 @media (max-width: 576px) {
@@ -246,6 +398,14 @@
     padding-top: $spacing-xl;
     padding-bottom: $spacing-xl;
   }
+  .sm-py-xs {
+    padding-top: $spacing-xs;
+    padding-bottom: $spacing-xs;
+  }
+  .sm-py-2xl {
+    padding-top: $spacing-2xl;
+    padding-bottom: $spacing-2xl;
+  }
   .sm-flex-column {
     flex-direction: column;
   }
@@ -255,7 +415,144 @@
   .sm-align-start {
     align-items: start;
   }
+  .sm-pt-l {
+    padding-top: $spacing-l;
+  }
   .sm-pl-s {
     padding-left: $spacing-s;
+  }
+  .sm-pl-l {
+    padding-left: $spacing-l;
+  }
+  .sm-dispaly1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+  .sm-dispaly2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+
+  .sm-H1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+  .sm-H2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+  .sm-H3 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+  .sm-H4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+  .sm-H5 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+  .sm-H6 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+
+  .sm-label-lg {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+  }
+
+  .sm-label-md {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+  }
+
+  .sm-label-sm {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+  }
+
+  .sm-label-xs {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+  }
+
+  .sm-paragraph-lg {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+  }
+  .sm-paragraph-md {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+  }
+  .sm-paragraph-sm {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+  }
+  .sm-paragraph-xs {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+  }
+  .sm-w-50 {
+    width: 48%;
+  }
+  .sm-w-100 {
+    width: 100%;
+  }
+  .sm-d-flex-wrap {
+    flex-wrap: wrap;
+  }
+  .sm-d-flex-nowrap {
+    flex-wrap: nowrap;
+  }
+  .sm-px-m {
+    padding-top: $spacing-m;
+    padding-bottom: $spacing-m;
+  }
+  .sm-px-5xl {
+    padding-top: $spacing-5xl;
+    padding-bottom: $spacing-5xl;
+  }
+  .sm-mr-l {
+    margin-right: $spacing-l;
+  }
+  .sm-mb-m {
+    margin-bottom: $spacing-m;
+  }
+  .sm-mb-l {
+    margin-bottom: $spacing-l;
   }
 }
