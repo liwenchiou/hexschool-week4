@@ -180,6 +180,9 @@
 .mr-xs {
   margin-right: $spacing-xs;
 }
+.mr-s {
+  margin-right: $spacing-s;
+}
 .mr-l {
   margin-right: $spacing-l;
 }
@@ -189,10 +192,15 @@
 .outline {
   outline: 1px solid red;
 }
+.py-xs {
+  padding-top: $spacing-xs;
+  padding-bottom: $spacing-xs;
+}
 .py-s {
   padding-top: $spacing-s;
   padding-bottom: $spacing-s;
 }
+
 .px-s {
   padding-left: $spacing-s;
   padding-right: $spacing-s;
@@ -371,6 +379,7 @@
     letter-spacing: 0.05em;
   }
 
+
   .sm-label-lg {
     font-weight: 500;
     font-size: 20px;
@@ -445,6 +454,15 @@
   }
   .sm-mr-l {
     margin-right: $spacing-l;
+  }
+  .sm-mb-0 {
+    margin-bottom: 0px;
+  }
+      .sm-mb-xs {
+    margin-bottom: $spacing-xs;
+  }
+    .sm-mb-s {
+    margin-bottom: $spacing-s;
   }
   .sm-mb-m {
     margin-bottom: $spacing-m;
