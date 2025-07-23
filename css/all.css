@@ -266,103 +266,6 @@ img {
   letter-spacing: 0.05em;
 }
 
-.sm-dispaly1 {
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 1.2;
-  letter-spacing: 0.05em;
-}
-.sm-dispaly2 {
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 1.2;
-  letter-spacing: 0.05em;
-}
-.sm-H1 {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 1.2;
-  letter-spacing: 0.05em;
-}
-.sm-H2 {
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 1.2;
-  letter-spacing: 0.05em;
-}
-.sm-H3 {
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 1.2;
-  letter-spacing: 0.05em;
-}
-.sm-H4 {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 1.2;
-  letter-spacing: 0.05em;
-}
-.sm-H5 {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.05em;
-}
-.sm-H6 {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.2;
-  letter-spacing: 0.05em;
-}
-.sm-label-lg {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.5;
-  letter-spacing: 0.05em;
-}
-.sm-label-md {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.05em;
-}
-.sm-label-sm {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.5;
-  letter-spacing: 0.05em;
-}
-.sm-label-xs {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 1.5;
-  letter-spacing: 0.05em;
-}
-.sm-paragraph-lg {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  letter-spacing: 0.05em;
-}
-.sm-paragraph-md {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.05em;
-}
-.sm-paragraph-sm {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.5;
-  letter-spacing: 0.05em;
-}
-.sm-paragraph-xs {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.5;
-  letter-spacing: 0.05em;
-}
-
 .radius-sm {
   border-radius: 4px;
 }
@@ -855,23 +758,6 @@ a {
   height: 100%;
 }
 
-.shopSeriesItemTitle {
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 1.2;
-  letter-spacing: 0.05em;
-  color: #ffffff;
-  margin-bottom: 8px;
-}
-
-.shopSeriesItemText {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 1.2;
-  letter-spacing: 0.05em;
-  color: #ffffff;
-}
-
 .inspirationSection {
   display: flex;
   gap: 8px;
@@ -925,34 +811,6 @@ a {
   }
   .heroText {
     margin-left: 0px;
-  }
-  .dispaly1 {
-    font-size: 48px;
-  }
-  .h3 {
-    font-size: 20px;
-  }
-  .mb-3xl {
-    margin-bottom: 32px;
-  }
-  .py-5xl {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-  .sm-H2 {
-    font-size: 32px;
-  }
-  .sm-H4 {
-    font-size: 24px;
-  }
-  .sm-mbxs {
-    margin-bottom: 8px;
-  }
-  .sm-mbl {
-    margin-bottom: 24px;
-  }
-  .sm-H6 {
-    font-size: 16px;
   }
   .bannerText {
     padding-top: 64px;
