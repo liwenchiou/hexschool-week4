@@ -1,0 +1,142 @@
+.produsgImages {
+  width: 57%;
+  // margin-right: 1.8%;
+}
+// .produsgImages img{
+//   max-width: 100%;
+// }
+.produsgImages ul {
+  // gap: 8px;
+}
+.produsgImages li {
+  width: 49%;
+  // margin-bottom: 1%;
+}
+.produsgInfo {
+  width: 40%;
+  // outline:1px solid red;
+}
+
+
+.oldPrice {
+  text-decoration: line-through;
+}
+.menuImg {
+  width: 64px;
+  height: 64px;
+}
+.menuSize li {
+  width: 30%;
+}
+.menuSizeSelect,.sizeOnSelect{
+  border-radius: $spacing-xs;
+}
+.menuSizeSelect {
+  text-align: center;
+  border: 1px solid $neutral-300;
+}
+.sizeOnSelect {
+  border: 1px solid $neutral-900;
+}
+.produstLike,.produstReserv{
+  border: 1px solid $neutral-900;
+}
+.produstReserv{
+background-color: $neutral-900;
+}
+.menuBtngroup{
+  gap: 1%;
+}
+.menuBtngroup li{
+  width: 49%;
+}
+.infoText{
+    border-bottom: 1px solid $neutral-300;
+}
+  .sizeNone {
+    color: #dee2e6;
+  }
+  .item-i i{
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    color: $neutral-900;
+  }
+@media(max-width:768px){
+
+  .produsgImages {
+    width: 100%;
+  }
+      main ul {
+    flex-direction: column;
+  }
+  .sm-dn{
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+
+  .container {
+    max-width: 1296px;
+    margin: 0 auto;
+  }
+  main ul {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+  }
+  .linkList{
+    margin-bottom: 8px;
+  }
+
+  // .produsgImages ul {
+  //   display: flex;
+  //   flex-wrap: wrap;
+  //   gap: 1%;
+  // }
+  .produsgImages li {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* width: 369px; */
+    // margin-bottom: 8px;
+    /* outline: 1px solid red; */
+  }
+  .produsgImage {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .produsgInfo {
+  width: 100%;
+  // outline:1px solid red;
+}
+  .menuColor {
+    gap: 0;
+  }
+  .menuColor img {
+    width: 64px;
+    height: 64px;
+    // margin-bottom: 4px;
+  }
+  .menuSize{
+    gap:0;
+  }
+  .menuSize li {
+  width: 50%;
+}
+.menuBtngroup li{
+  width: 100%;
+}
+  .produstReserv {
+    display: block;
+    text-align: center;
+    padding: 12px 24px;
+    border: 1px solid #212529;
+    background-color: #212529;
+    color: #fff;
+    border-radius: 8px;
+    width: 80%;
+    margin-right: 8px;
+  }
+}
