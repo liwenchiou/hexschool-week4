@@ -121,10 +121,13 @@ img {
   height: auto;
   display: block;
   object-fit: cover;
+  vertical-align: middle;
 }
 
 /*不計算padding 和 border*/
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 

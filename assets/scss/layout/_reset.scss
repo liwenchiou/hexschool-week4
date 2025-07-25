@@ -110,14 +110,17 @@ table {
 }
 
 /*圖片不管多大都會控制在父層內*/
-img{
-    max-width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  vertical-align: middle;
 }
 
 /*不計算padding 和 border*/
-*,*::before,*::after{
-box-sizing:border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
