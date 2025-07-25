@@ -111,7 +111,7 @@ table {
 
 /*圖片不管多大都會控制在父層內*/
 img{
-    width: 100%;
+    max-width: 100%;
     height: auto;
     display: block;
     object-fit: cover;

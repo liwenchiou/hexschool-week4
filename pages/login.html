@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="../css/all.css">
+  <title>index</title>
+</head>
+
+<body>
+  <%- include('./layout/header'); -%>
+
+    <main class="container m0-auto">
+        <ul class="container-ul">
+            <li class="loginImg"><img src="../assets/images/img-1拷貝.png" alt="welcome" class="sm-dn"><img src="../assets/images/img拷貝.png" alt="welcome" class="mainDn db w-100"></li>
+            <li class="loginContent">
+                <h1 class="loginTitle">歡迎！</h1>
+                <div class="loginBtn">
+                    <a href="#" class="btnActive">登入</a><a href="#">註冊</a>
+                </div>
+                <a href="#" class="inBtn"><img src="../assets/images/Facebook.png" alt="fbImg"> <p>Facebook 登入</p></a>
+                <a href="#" class="inBtn"><img src="../assets/images/apple.png" alt="fbImg"> <p>Apple 登入</p></a>
+                <a href="#" class="inBtn"><img src="../assets/images/google.png" alt="fbImg"> <p>Google 登入</p></a>
+            </li>
+        </ul>
+    </main>
+
+  <%- include('./layout/footer'); -%>
+  <script type="module" src="../main.js"></script>
+</body>
+
+</html>

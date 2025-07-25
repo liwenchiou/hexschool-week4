@@ -9,7 +9,7 @@
   // gap: 8px;
 }
 .produsgImages li {
-  width: 49%;
+  width: 48%;
   // margin-bottom: 1%;
 }
 .produsgInfo {
@@ -67,9 +67,9 @@ background-color: $neutral-900;
   .produsgImages {
     width: 100%;
   }
-      main ul {
-    flex-direction: column;
-  }
+  //     main ul {
+  //   flex-direction: column;
+  // }
   .sm-dn{
     display: none;
   }
@@ -80,11 +80,11 @@ background-color: $neutral-900;
     max-width: 1296px;
     margin: 0 auto;
   }
-  main ul {
-    display: flex;
-    gap: 24px;
-    flex-direction: column;
-  }
+  // main ul {
+  //   display: flex;
+  //   // gap: 24px;
+  //   flex-direction: column;
+  // }
   .linkList{
     margin-bottom: 8px;
   }

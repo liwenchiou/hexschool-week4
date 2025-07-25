@@ -1,0 +1,153 @@
+.collection-container {
+  max-width: 660px;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  background-color: #c0fa73; /* 綠色圓形 */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+.checkmark {
+  color: #477a11; /* 深綠勾勾 */
+  font-size: 16px;
+  line-height: 1;
+}
+.collectionTips {
+  padding: 16px;
+  background-color: #f5fee7;
+  display: flex;
+  //   gap: 12px;
+  //   justify-content: center;
+  align-items: center;
+  /* outline:1px solid red; */
+  //   margin-bottom: 32px;
+}
+.collectionTips .bi {
+  font-size: 24px;
+  line-height: 1;
+  color: #57a203;
+}
+
+.collectionList {
+  text-align: center;
+}
+.collectionList li {
+  text-align: left;
+  display: flex;
+  gap: 3%;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #dee2e6;
+  margin-bottom: 32px;
+}
+.collectionImg {
+  max-width: 120px;
+  width: 18%;
+}
+.collectionContent {
+  width: 78%;
+}
+.collectionTitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  color: #212529;
+  margin-bottom: 8px;
+}
+.collectionSize,
+.collectionColor {
+  color: #6c757d;
+  margin-bottom: 8px;
+}
+.collectionSize span,
+.collectionColor span {
+  font-weight: 500;
+  line-height: 1.5;
+  color: #212529;
+  margin-left: 12px;
+}
+.collectionPrice {
+  text-align: end;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  color: #212529;
+}
+.h32 {
+  height: 32px;
+}
+.collectionBtn {
+  display: inline-block;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  padding: 12px 24px;
+  background-color: #212529;
+  color: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 64px;
+}
+
+@media (max-width: 576px) {
+  .circle {
+    width: 32px;
+    height: 32px;
+  }
+
+  .collectionTips .bi {
+    font-size: 20px;
+  }
+  .collectionTips {
+    justify-content: start;
+    align-items: center;
+  }
+  .collectionImg {
+    width: 34%;
+  }
+
+  .collectionTitle {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    color: #212529;
+    margin-bottom: 8px;
+  }
+  .collectionSize,
+  .collectionColor {
+    color: #6c757d;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  .collectionSize span,
+  .collectionColor span {
+    font-weight: 500;
+    line-height: 1.5;
+    color: #212529;
+    margin-left: 12px;
+    font-size: 14px;
+  }
+  .collectionPrice {
+    text-align: start;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    color: #212529;
+  }
+  .collectionList li {
+    text-align: left;
+    display: flex;
+    gap: 6.8%;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 32px;
+  }
+  .collectionBtn {
+    margin-bottom: 24px;
+  }
+}

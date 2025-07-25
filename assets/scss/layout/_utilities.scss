@@ -162,7 +162,9 @@
 .pos-absolute {
   position: absolute;
 }
-
+.justify-start {
+  justify-content: start;
+}
 .justify-center {
   justify-content: center;
 }
@@ -311,6 +313,10 @@
   .sm-py-xs {
     padding-top: $spacing-xs;
     padding-bottom: $spacing-xs;
+  }
+    .sm-py-xl {
+    padding-top: $spacing-xl;
+    padding-bottom: $spacing-xl;
   }
   .sm-py-2xl {
     padding-top: $spacing-2xl;
@@ -463,6 +469,10 @@
     padding-left: $spacing-m;
     padding-right: $spacing-m;
   }
+    .sm-px-xl {
+    padding-left: $spacing-xl;
+    padding-right: $spacing-xl;
+  }
   .sm-px-5xl {
     padding-left: $spacing-5xl;
     padding-right: $spacing-5xl;
@@ -496,5 +506,8 @@
 }
 .sm-align-center {
   align-items: center;
+}
+.sm-d-flex-column {
+  flex-direction: column;
 }
 }

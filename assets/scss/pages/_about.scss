@@ -1,0 +1,216 @@
+.header {
+  background: url("../images/Hero\ Section.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; /* 填滿且等比縮放 */
+  text-align: center;
+  padding: 151px;
+}
+
+.header h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.header p {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.main .container {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 64px 12px;
+}
+
+h3 {
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  color: #212529;
+  margin-bottom: 24px;
+}
+
+.tip-section {
+  margin: 0 auto;
+  background-color: #f5fee7;
+  padding: 32px;
+  max-width: 856px;
+  margin-bottom: 48px;
+  border-radius: 4px;
+}
+
+.tip-section h2,
+.tip-section p {
+  text-align: center;
+}
+
+.tip-section h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  color: #57a203;
+  margin-bottom: 12px;
+}
+
+.tip-section p {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  color: #212529;
+  margin-bottom: 4px;
+}
+.about-img {
+  margin: 0 auto;
+  max-width: 1076px;
+  margin-bottom: 24px;
+}
+
+.intriduction {
+  max-width: 856px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+.intriduction-content {
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 24px;
+}
+
+.intriduction-content h4 {
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  color: #57a203;
+  margin-bottom: 16px;
+}
+
+.intriduction-content p {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  color: #212529;
+  margin-bottom: 16px;
+}
+
+.history {
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 48px;
+  max-width: 856px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+.history ul {
+  margin-left: 20px;
+  list-style-type: disc; /* 預設：實心圓 */
+  display: block;
+}
+.history li {
+  margin-bottom: 12px;
+}
+.history li span {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  color: #212529;
+}
+.history-year {
+  margin-right: 8px;
+}
+.history-yearcontent {
+  border-left: 1px solid #212529;
+  padding-left: 8px;
+}
+
+.philosophy {
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 48px;
+  max-width: 856px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+.philosophy li {
+  
+  margin-bottom: 12px;
+}
+
+.philosophy p {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  color: #212529;
+  border-left: 3px solid #dee2e6;
+  padding: 0px 12px;
+}
+
+.anecdote {
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 48px;
+  max-width: 856px;
+  margin: 0 auto;
+}
+
+.anecdote li {
+  padding: 8px 0px;
+}
+.anecdote li i {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  margin-right: 4px;
+}
+.anecdote li a {
+  text-decoration: none;
+}
+.anecdote li i,
+.anecdote li a {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  color: #57a203;
+}
+.anecdote li span {
+  padding-bottom: 4px;
+  border-bottom: 1px solid #57a203;
+}
+
+@media (max-width: 576px) {
+  .dn {
+    display: none;
+  }
+
+  .main .container {
+    padding: 32px 12px;
+  }
+  .header {
+    background: url("../images/c7e2e0d7111d666be94562b6f4830973da8b0621.png");
+    padding: 87px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; /* 填滿且等比縮放 */
+    text-align: center;
+  }
+  .header h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+  .header p {
+    font-size: 20px;
+  }
+  .tip-section {
+    padding: 24px;
+  }
+.tip-section h2,
+.tip-section p {
+  text-align: left;
+}
+}
