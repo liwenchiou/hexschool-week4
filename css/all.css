@@ -401,6 +401,11 @@ img {
   text-align: center;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mb-xxs {
   margin-bottom: 4px;
 }
@@ -479,7 +484,7 @@ img {
   padding-right: 12px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .sm-di {
     display: inline;
   }
@@ -1096,6 +1101,9 @@ a {
   .produsgImages {
     width: 100%;
   }
+  .main-ul {
+    flex-direction: column;
+  }
 }
 @media (max-width: 576px) {
   .linkList {
@@ -1433,11 +1441,8 @@ h3 {
 }
 
 .tip-section {
-  margin: 0 auto;
   background-color: #f5fee7;
-  padding: 32px;
   max-width: 856px;
-  margin-bottom: 48px;
   border-radius: 4px;
 }
 
@@ -1602,9 +1607,6 @@ h3 {
   }
   .header p {
     font-size: 20px;
-  }
-  .tip-section {
-    padding: 24px;
   }
   .tip-section h2,
   .tip-section p {
