@@ -139,6 +139,10 @@
 }
 
 @media (max-width: 576px) {
+  .newArrival{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
   .hero {
     padding: 155px 24px;
     margin: 0;
@@ -154,14 +158,14 @@
     padding-top: 64px;
     padding-bottom: 64px;
   }
-  // .bannerStar {
-  //   top: 5%;
-  //   left: -8%;
-  // }
-  // .bannerSparkle {
-  //   bottom: 10%;
-  //   right: -11%;
-  // }
+  .bannerStar {
+    top: 5%;
+    left: -8%;
+  }
+  .bannerSparkle {
+    bottom: 10%;
+    right: -11%;
+  }
   .sm-dn {
     display: none;
   }

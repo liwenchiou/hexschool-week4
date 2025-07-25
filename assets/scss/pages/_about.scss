@@ -22,11 +22,11 @@
   letter-spacing: 0.05em;
   color: #ffffff;
 }
-.main .container {
-  max-width: 1340px;
-  margin: 0 auto;
-  padding: 64px 12px;
-}
+// .main .container {
+//   max-width: 1340px;
+//   margin: 0 auto;
+//   // padding: 64px 12px;
+// }
 
 h3 {
   font-weight: 700;
@@ -184,13 +184,13 @@ h3 {
 }
 
 @media (max-width: 576px) {
-  .dn {
-    display: none;
-  }
+  // .dn {
+  //   display: none;
+  // }
 
-  .main .container {
-    padding: 32px 12px;
-  }
+  // .main .container {
+  //   padding: 32px 12px;
+  // }
   .header {
     background: url("../images/c7e2e0d7111d666be94562b6f4830973da8b0621.png");
     padding: 87px;

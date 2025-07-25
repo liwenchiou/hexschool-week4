@@ -446,8 +446,8 @@ img {
 }
 
 .px-3xl {
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-left: 48px;
+  padding-right: 48px;
 }
 
 .db {
@@ -497,6 +497,10 @@ img {
   .sm-py-xs {
     padding-top: 8px;
     padding-bottom: 8px;
+  }
+  .sm-py-l {
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
   .sm-py-xl {
     padding-top: 32px;
@@ -647,6 +651,10 @@ img {
     padding-left: 16px;
     padding-right: 16px;
   }
+  .sm-px-l {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
   .sm-px-xl {
     padding-left: 32px;
     padding-right: 32px;
@@ -657,6 +665,9 @@ img {
   }
   .sm-mr-xs {
     margin-right: 8px;
+  }
+  .sm-mr-s {
+    margin-right: 12px;
   }
   .sm-mr-l {
     margin-right: 24px;
@@ -868,6 +879,10 @@ a {
 }
 
 @media (max-width: 576px) {
+  .newArrival {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
   .hero {
     padding: 155px 24px;
     margin: 0;
@@ -882,6 +897,14 @@ a {
   .bannerText {
     padding-top: 64px;
     padding-bottom: 64px;
+  }
+  .bannerStar {
+    top: 5%;
+    left: -8%;
+  }
+  .bannerSparkle {
+    bottom: 10%;
+    right: -11%;
   }
   .sm-dn {
     display: none;
@@ -1073,15 +1096,8 @@ a {
   .produsgImages {
     width: 100%;
   }
-  .sm-dn {
-    display: none;
-  }
 }
 @media (max-width: 576px) {
-  .container {
-    max-width: 1296px;
-    margin: 0 auto;
-  }
   .linkList {
     margin-bottom: 8px;
   }
@@ -1364,14 +1380,8 @@ a {
 }
 
 @media (max-width: 768px) {
-  .dn {
-    display: none;
-  }
   .mainDn {
     display: inline;
-  }
-  .container {
-    padding: 0px 12px;
   }
   .container-ul {
     display: flex;
@@ -1411,12 +1421,6 @@ a {
   line-height: 1.2;
   letter-spacing: 0.05em;
   color: #ffffff;
-}
-
-.main .container {
-  max-width: 1340px;
-  margin: 0 auto;
-  padding: 64px 12px;
 }
 
 h3 {
@@ -1584,12 +1588,6 @@ h3 {
 }
 
 @media (max-width: 576px) {
-  .dn {
-    display: none;
-  }
-  .main .container {
-    padding: 32px 12px;
-  }
   .header {
     background: url("../images/c7e2e0d7111d666be94562b6f4830973da8b0621.png");
     padding: 87px;

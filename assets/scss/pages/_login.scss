@@ -64,15 +64,15 @@
 }
 
 @media (max-width: 768px) {
-  .dn {
-    display: none;
-  }
+  // .dn {
+  //   display: none;
+  // }
   .mainDn {
     display: inline;
   }
-  .container {
-    padding: 0px 12px;
-  }
+  // .container {
+  //   // padding: 0px 12px;
+  // }
   .container-ul {
     display: flex;
     flex-direction: column;

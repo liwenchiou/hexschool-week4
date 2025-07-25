@@ -269,8 +269,8 @@
   padding-top: $spacing-3xl;
 }
 .px-3xl {
-  padding-top: $spacing-3xl;
-  padding-bottom: $spacing-3xl;
+  padding-left: $spacing-3xl;
+  padding-right: $spacing-3xl;
 }
 .db {
   display: block;
@@ -313,6 +313,10 @@
   .sm-py-xs {
     padding-top: $spacing-xs;
     padding-bottom: $spacing-xs;
+  }
+    .sm-py-l {
+    padding-top: $spacing-l;
+    padding-bottom: $spacing-l;
   }
     .sm-py-xl {
     padding-top: $spacing-xl;
@@ -469,6 +473,10 @@
     padding-left: $spacing-m;
     padding-right: $spacing-m;
   }
+    .sm-px-l {
+    padding-left: $spacing-l;
+    padding-right: $spacing-l;
+  }
     .sm-px-xl {
     padding-left: $spacing-xl;
     padding-right: $spacing-xl;
@@ -479,6 +487,9 @@
   }
     .sm-mr-xs {
     margin-right: $spacing-xs;
+  }
+    .sm-mr-s {
+    margin-right: $spacing-s;
   }
   .sm-mr-l {
     margin-right: $spacing-l;
